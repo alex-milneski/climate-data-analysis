@@ -37,8 +37,3 @@ plt.ylabel("June-July-August Mean Precipitation (mm)")
 
 plt.show()
 
-# I determined that many more values were missing before 1950. Therefore, I will make my analysis starting in 1957 as
-# to make it a rounded 60 years of data
-#
-# by_year = trimmed.loc[(trimmed.Year >= 1957) & (trimmed.Year <= 2017), :]
-
